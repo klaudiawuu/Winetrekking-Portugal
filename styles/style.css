@@ -18,3 +18,7 @@ h1 {
 p {
     font-family: var(--paragraph-font);
 }
+
+.icons {
+    font-size: 30px;
+}
