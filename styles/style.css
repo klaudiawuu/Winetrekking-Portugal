@@ -21,9 +21,9 @@ h1 {
   background-color: rgb(209, 250, 250);
 }
 h2 {
-    font-size: 35px;
-    font-weight: bolder;
-    text-align: left;
+  font-size: 35px;
+  font-weight: bolder;
+  text-align: left;
 }
 
 h3 {
@@ -52,11 +52,11 @@ p {
   text-align: left;
 }
 .page-description {
-    font-weight: bolder;
-    font-size: 18;
+  font-weight: bolder;
+  font-size: 18;
 }
 .destinations {
-    font-weight: bolder;
+  font-weight: bolder;
 }
 
 .icons {
@@ -70,10 +70,26 @@ p {
 .btn-light:hover {
   background: #bae2e9;
 }
- .read-more {
-     background: #ccf3fa;
-     border-color: var(--main-branding-color);
- }
- .acores-img {
-     border-radius: 6px;
- }
+.read-more {
+  background: #ccf3fa;
+  border-color: var(--main-branding-color);
+  width: 120px;
+}
+.acores-img {
+  border-radius: 6px;
+  width: 250px;
+}
+
+@media (max-width: 600px) {
+
+  .azores-description p {
+    text-align: center;
+  }
+  .azores-description h2 {
+    text-align: center;
+  }
+    .read-more {
+    display: block;
+    margin: 0 auto;
+  }
+}
