@@ -79,9 +79,13 @@ p {
   border-radius: 6px;
   width: 250px;
 }
-
+.about-heading {
+    font-size: 40px;
+}
 .about-wine-view {
     border-radius: 6px;
+    margin-top: 100px;
+    margin-bottom: 30px;
 }
 
 @media (max-width: 600px) {
