@@ -32,7 +32,7 @@ h3 {
   font-weight: bolder;
   color: var(--main-branding-color);
   text-align: center;
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 10px;
 }
 
@@ -78,6 +78,10 @@ p {
 .acores-img {
   border-radius: 6px;
   width: 250px;
+}
+
+.about-wine-view {
+    border-radius: 6px;
 }
 
 @media (max-width: 600px) {
