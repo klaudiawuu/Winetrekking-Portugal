@@ -93,7 +93,19 @@ p {
     margin-top: 50px;
     margin-bottom: 30px;
     width: 260px;
-
+}
+.galery-description {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.galery-heading {
+    margin-top: 70px;
+}
+.galery-place {
+    margin-left: 50px;
+}
+.azores-pics {
+    width: 200px;
 }
 
 @media (max-width: 600px) {
@@ -126,5 +138,11 @@ p {
   }
   .about-description {
       font-size: 20px;
+  }
+  .galery-description {
+      font-size: 18px;
+  }
+  .azores-pics {
+      min-width: 150px;
   }
 }
