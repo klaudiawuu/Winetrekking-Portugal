@@ -42,17 +42,17 @@
   <body>
     <div class="container about-section">
       <div class="row">
-          <div class="col-6">
+          <div class="col-md-6 d-none d-sm-block">
         <img
           src="/images/wine-with-a-view.jpg"
           alt=""
           width="250"
-          class="about-wine-view"
+          class="about-wine-view shadow p-3 mb-5 bg-body rounded"
         />
         <div class="d-grid gap-2 mb-5">
-    <button type="button" class="btn btn-light read-more" href="">Our trips</button></div>
+    <button type="button" class="btn btn-light read-more shadow" href="">Our trips</button></div>
         </div>
-        <div class="col-6">
+        <div class="col-md-6 about-text">
           <h1 class="about-heading m-0">About Winetrekking Portugal</h1>
           <h3 class="about-description m-0">
             ...short story about how to enjoy wine with the view
@@ -67,7 +67,23 @@
             temporibus deserunt veritatis minima fugiat explicabo eum dolore.
           </p>
         </div>
+        <div class="col-md-6 d-block d-sm-none mt-3">
+        <img
+          src="/images/wine-with-a-view.jpg"
+          alt=""
+          width="250"
+          class="about-wine-view shadow p-3 mb-5 bg-body rounded"
+        />
+        <div class="d-grid gap-2 mb-5">
+    <button type="button" class="btn btn-light read-more shadow" href="">Our trips</button></div>
+        </div>
       </div>
+      <div class="d-flex justify-content-center icons m-4">
+      <i class="fa-brands fa-facebook-square pe-3"></i>
+      <i class="fa-brands fa-instagram pe-3"></i>
+      <i class="fa-solid fa-envelope pe-3"></i>
+      <i class="fa-solid fa-image"></i>
+    </div>
     </div>
   </body>
 </html>
