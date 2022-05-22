@@ -60,9 +60,12 @@ p {
   font-weight: bolder;
 }
 
-.fa-brands, .fa-solid {
+.fa-brands,
+.fa-solid {
   font-size: 30px;
   color: var(--main-branding-color);
+  padding-top: 30px;
+  padding-bottom: 15px;
 }
 
 .btn-light {
@@ -82,31 +85,34 @@ p {
 }
 
 .about-section {
-    padding-top: 80px;
-    background-color: rgb(238, 255, 255);
-    max-width: 800px;
+  padding-top: 80px;
+  background-color: rgb(238, 255, 255);
+  max-width: 800px;
 }
 .about-heading {
-    font-size: 40px;
+  font-size: 40px;
 }
 .about-wine-view {
-    border-radius: 6px;
-    margin-top: 50px;
-    margin-bottom: 30px;
-    width: 260px;
+  border-radius: 6px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  width: 260px;
 }
 .galery-description {
-    padding-top: 20px;
-    padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 .galery-heading {
-    margin-top: 70px;
+  margin-top: 70px;
 }
 .galery-place {
-    margin-left: 50px;
+  margin-left: 50px;
 }
 .azores-pics {
-    width: 200px;
+  width: 200px;
+}
+.contact {
+  text-decoration: none;
 }
 
 @media (max-width: 600px) {
@@ -135,15 +141,15 @@ p {
     margin: 0 auto;
   }
   .about-heading {
-      font-size: 35px;
+    font-size: 35px;
   }
   .about-description {
-      font-size: 20px;
+    font-size: 20px;
   }
   .galery-description {
-      font-size: 18px;
+    font-size: 18px;
   }
   .azores-pics {
-      min-width: 150px;
+    min-width: 150px;
   }
 }
