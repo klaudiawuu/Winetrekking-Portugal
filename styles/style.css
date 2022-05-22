@@ -73,6 +73,9 @@ p {
   padding-top: 30px;
   padding-bottom: 15px;
 }
+.button {
+  text-decoration: none;
+}
 
 .btn-light {
   background: #90c5ce;
