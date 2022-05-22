@@ -73,6 +73,12 @@ p {
   padding-top: 30px;
   padding-bottom: 15px;
 }
+.fa-brands:hover{
+  color: #90c5ce;
+}
+.fa-solid:hover{
+  color: #90c5ce;
+}
 .button {
   text-decoration: none;
 }
